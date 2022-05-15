@@ -73,7 +73,7 @@ public class ArticleController {
         model.addAttribute("article", articleEntity);
 
         // 뷰 페이지 설정
-        return "article/edit";
+        return "articles/edit";
     }
 
 }
