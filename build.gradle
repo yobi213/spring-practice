@@ -13,6 +13,8 @@ repositories {
 }
 
 dependencies {
+	//PostgreSQL 추가
+	runtimeOnly 'org.postgresql:postgresql'
 	//롬복 추가
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
